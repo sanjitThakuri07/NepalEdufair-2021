@@ -145,7 +145,6 @@ body {
   font-weight: 500;
 }
 
-
 .footer-container {
   justify-content: flex-start;
   max-width: 115rem;
@@ -156,7 +155,7 @@ body {
   .footer-container {
     max-width: 90%;
   }
-
+}
 
 @media (min-width: 40rem) {
   html {
@@ -195,4 +194,9 @@ body {
   .mobile-footer-links {
     width: 100%;
   }
+}
+.contact-number,
+.contact-message {
+  display: flex;
+  margin-bottom: 1.6rem;
 }

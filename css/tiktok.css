@@ -1,0 +1,194 @@
+.tiktok__form {
+  padding: 0 2.4rem;
+  padding-top: 8rem;
+  /* background: red; */
+  margin-top: 4.8rem;
+  margin-bottom: 4.8rem;
+  /*  */
+  background: linear-gradient(
+    146.45deg,
+    rgba(45, 45, 45, 0.6) -5.54%,
+    rgba(44, 44, 44, 0.4) 100.7%
+  );
+  box-shadow: 0px 4px 34px rgba(247, 0, 77, 0.4);
+  border-radius: 20px;
+}
+
+.tiktok__top__form-container {
+  background: linear-gradient(
+      to right bottom,
+      rgba(174, 10, 65, 0.6),
+      rgba(152, 25, 72, 0.9)
+    ),
+    url(../img/TIKTOK_Wall_HD.jpg) no-repeat;
+  background-size: cover;
+  background-position: top;
+}
+
+.tiktok__form .tiktok-left {
+  gap: 0;
+}
+
+.tiktok__form {
+  font-family: raleway;
+  font-size: 1.6rem;
+}
+
+.tiktok__form .pubg__heading-text {
+  font-family: raleway;
+  font-size: 2rem;
+  font-weight: 700;
+  color: #fff;
+  margin-left: 0;
+}
+
+.tiktok__form .form__heading ol {
+  list-style-type: disc;
+  font-size: 1.6rem;
+  line-height: 2;
+  padding-left: 1.6rem;
+}
+
+.tiktok__form .signUpform {
+  background-color: transparent;
+  border: none;
+  font-family: raleway;
+}
+
+.tiktok__form .form__group input,
+.tiktok__form .form__group select,
+.tiktok__form .form__group label {
+  font-size: 1.6rem;
+  font-family: raleway;
+}
+
+.tiktok__form .signUpform p {
+  color: #fcf800;
+  font-size: 1.4rem;
+}
+
+.tiktok-left .ad__image-container {
+  width: 25rem;
+}
+
+.tiktok__form .checkBox__content .form__group {
+  max-width: 100% !important;
+}
+
+.tiktok__form .checkBox__content {
+  margin-top: 0;
+}
+
+.tiktok__submit {
+  padding: 0.8rem 3.2rem;
+  font-size: 2.4rem;
+  border-radius: 30px;
+  min-width: 20rem;
+  background-color: #fff;
+  color: #000;
+  font-weight: bold;
+  font-family: raleway;
+}
+
+/*  */
+.tiktok {
+  display: block;
+  background: url(../img/TIKTOK_Wall_HD.jpg) no-repeat;
+  min-height: 80vh;
+  background-size: cover;
+  background-position: top;
+  position: relative;
+}
+
+.tiktok .ad__image-container {
+  display: block;
+  position: absolute;
+  bottom: 0%;
+  left: 25%;
+  /* transform: translate(-50%, -50%); */
+  width: 31rem;
+}
+
+.tiktok-left .platform {
+  border: 1px solid #05eae3;
+}
+
+.tiktok-left .platform .normal__heading {
+  color: #fff;
+}
+
+/* responsive */
+
+@media (max-width: 1100px) {
+  .tiktok__form .form__details {
+    order: 2;
+  }
+}
+
+@media (max-width: 678px) {
+  .tiktok .ad__image-container {
+    width: 25rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .tiktok__form {
+    padding: 0 0rem;
+    padding-top: 1rem;
+  }
+
+  .tiktok__form .form__details {
+    padding: 0.8rem;
+  }
+
+  .tiktok__form {
+    margin-bottom: 4rem;
+  }
+
+  .tiktok__form .action__button {
+    margin-bottom: 0;
+  }
+
+  .whole__form,
+  .nav__common,
+  .footer-container {
+    max-width: 100%;
+  }
+
+  .tiktok__form {
+    border-radius: 0;
+  }
+
+  .tiktok__form .tiktok-left {
+    background: linear-gradient(
+      to right bottom,
+      rgba(247, 0, 77, 0.8) 80%,
+      rgba(5, 235, 227, 0.3)
+    );
+    border-radius: 0;
+  }
+
+  .tiktok__form {
+    background: linear-gradient(
+      to right bottom,
+      rgba(45, 45, 45, 0.8) 80%,
+      rgba(44, 44, 44, 0.3)
+    );
+
+    margin-bottom: 0;
+  }
+
+  .tiktok .ad__image-container {
+    /* width: 25rem; */
+    left: 32%;
+  }
+}
+
+@media (max-width: 400px) {
+  .tiktok .ad__image-container {
+    /* width: 25rem; */
+    bottom: 17%;
+    left: 39%;
+    overflow: visible;
+  }
+}

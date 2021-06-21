@@ -451,3 +451,7 @@
 .nav__common-container ~ .real-footer {
   margin-top: 0 !important;
 }
+
+.pubg__character {
+  pointer-events: none;
+}
