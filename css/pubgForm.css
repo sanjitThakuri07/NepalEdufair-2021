@@ -1,0 +1,453 @@
+/* pubg form */
+
+@import url("https://fonts.googleapis.com/css2?family=Teko:wght@300;400;500;700&display=swap");
+
+.pubg__form {
+  margin-top: 8.8rem;
+}
+
+.pubg__top__form-container {
+  background: linear-gradient(
+      to right bottom,
+      rgba(22, 24, 25, 0.8),
+      rgb(34, 31, 28, 0.8)
+    ),
+    url("../img/poster1\ 2.svg") no-repeat;
+  background-size: cover;
+  background-position: top;
+
+  /* height: 80vh; */
+}
+
+.pubg__form .section-left,
+.pubg__form {
+  background-color: transparent;
+}
+
+.pubg__form .section-left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5.4rem;
+}
+
+.ad__image-container {
+  width: 40rem;
+  position: relative;
+}
+
+.ad__image-container img {
+  width: 100%;
+}
+
+.ad__image-container figcaption {
+  width: 20rem;
+  position: absolute;
+  bottom: 1.4rem;
+  left: 50%;
+  transform: translateX(-42%);
+}
+
+.ad__image-container figcaption svg {
+  width: 100%;
+}
+
+.pubg__form .platform {
+  background: transparent;
+  border: 1px solid #fcf800;
+}
+
+.pubg__form .normal__heading {
+  color: #fcf800;
+  padding: 0.8rem;
+}
+
+.pubg__form .preferred__actions {
+  justify-content: center;
+}
+
+.pubg__form .preferred__actions a {
+  width: 50%;
+  /* margin: 0 auto; */
+}
+
+.pubg__form .preferred__actions a img {
+  width: 100%;
+  display: block;
+}
+
+/* list */
+.pubg__form .form__heading {
+  flex-direction: column;
+  /* justify-content: flex-start; */
+  align-items: flex-start;
+  text-align: start;
+  font-size: 1.6rem;
+  color: #fff;
+
+  margin-top: -7.2rem;
+}
+
+.pubg__heading-text {
+  margin-left: -1.6rem;
+  font-weight: bold;
+  color: #fcf800;
+  letter-spacing: 1px;
+  font-family: "Teko", robot, sans-serif;
+  font-size: 1.8rem;
+}
+
+.pubg__form .form__heading ol {
+  list-style-type: number;
+  font-weight: 300;
+  font-size: 1.4rem;
+}
+
+/*  */
+.pubg__form .first__group {
+  /* flex-grow: 1; */
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: 1fr;
+}
+.pubg__form .signUpform {
+  margin: 2rem 0;
+
+  background-color: #1d1c00;
+  max-width: 100%;
+  border: 1px solid #fcf800;
+  padding: 0.8rem 1.6rem;
+  border-radius: 10px;
+  color: #fff;
+}
+
+.pubg__form .form__group input,
+.pubg__form .form__group select,
+.pubg__form .form__group label {
+  font-family: "Teko", robot, sans-serif;
+  font-size: 1.8rem;
+  letter-spacing: 1px;
+}
+
+.pubg__form .form__group input,
+.pubg__form .form__group select,
+.bottom__form .form__group select,
+.bottom__form .form__group input {
+  border-radius: 0px;
+  margin-top: 0.8rem;
+  color: #fff;
+  font-weight: 500;
+}
+
+.signUpform .pubg__heading-text {
+  margin: 0;
+  padding: 0.8rem 0;
+}
+
+.pubg__form .form__group input::-webkit-input-placeholder,
+.bottom__form .form__group input::-webkit-input-placeholder {
+  color: #fff;
+  font-weight: 300;
+  opacity: 0.8;
+}
+
+.pubg__form .form__group select option,
+.bottom__form .form__group select option {
+  background-color: inherit;
+  color: #333;
+}
+
+/* form pubg bottom container */
+.pubg__bottom__form-container .whole__form {
+  border: none;
+  flex-direction: column;
+}
+
+.pubg__bottom__form-container .teamForm {
+  width: 100%;
+  display: grid;
+  grid-auto-flow: row;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+}
+
+.pubg__bottom__form-container {
+  background-color: #1b1b1f;
+  padding: 1.6rem 0;
+}
+
+.bottom__form {
+  /* max-width: 115rem; */
+}
+
+.group__fields {
+  display: grid;
+  grid-auto-flow: row;
+  grid-template-columns: 1fr;
+  font-family: "Teko", robot, sans-serif;
+  color: #fff;
+}
+
+.group__fields p {
+  display: flex;
+  flex-direction: column;
+  min-height: 8rem;
+  justify-content: flex-end;
+  color: #fcf800;
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.group__fields p span {
+  font-size: 1.8rem;
+  font-weight: 300;
+}
+
+.group__fields .form__group:not(:last-child) {
+  margin-bottom: 2.4rem;
+}
+
+.group__fields .form__group:last-child {
+  margin-bottom: 0;
+}
+
+.checkBox__content {
+  grid-column: 1 / -1;
+  margin-bottom: 2.4rem;
+  margin-top: 4.8rem;
+
+  font-family: roboto;
+  /*  */
+  position: relative;
+}
+
+.checkBox__content .form__group {
+  margin: 0 auto;
+  max-width: 74%;
+  display: grid;
+  grid-template-columns: 1fr 12fr;
+  color: #fff;
+
+  letter-spacing: 1.2px;
+  font-family: "Teko", robot, sans-serif;
+}
+
+.checkBox__content .form__group:not(:last-child) {
+  margin-bottom: 2.4rem;
+}
+
+/* styling image */
+.pubg__character,
+.pubg__character-1 {
+  position: absolute;
+  top: 0;
+  width: 20%;
+}
+
+.pubg__character {
+  left: -2%;
+}
+
+.pubg__character-1 {
+  background: linear-gradient(
+      to right bottom,
+      rgba(22, 24, 25, 0.8),
+      rgb(34, 31, 28, 0.8)
+    ),
+    url(../img/Vector.png);
+
+  z-index: 1;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  width: 16%;
+  height: 10rem;
+  /* height: 130%; */
+
+  right: 0;
+  display: none;
+}
+
+/* button */
+.action__button {
+  text-align: center;
+  margin-bottom: 7.2rem;
+  grid-column: 1/-1;
+}
+
+.pubg__submit {
+  font-size: 2rem;
+  font-family: "Teko", robot, sans-serif;
+  font-weight: 300;
+  border-radius: 30px;
+  padding: 0.8rem 4rem;
+  letter-spacing: 1.2px;
+  min-width: 17rem;
+  background: linear-gradient(
+    90deg,
+    #de8d00 -1.77%,
+    #ffde40 132.96%,
+    #9c4100 383.09%
+  );
+}
+
+/*  */
+.form__group label a {
+  color: #fcf800;
+}
+
+/*  */
+.responsive__header {
+  display: none;
+}
+
+/* responsive */
+
+@media (max-width: 1200px) {
+  .pubg__form .first__group {
+    grid-auto-flow: row;
+    gap: 0;
+  }
+}
+
+@media (max-width: 1100px) {
+  .ad__image-container {
+    display: none;
+  }
+
+  .responsive__header {
+    display: block;
+    background: linear-gradient(
+        to right bottom,
+        rgba(22, 24, 25, 0.5),
+        rgb(34, 31, 28, 0.8)
+      ),
+      url(../img/poster1\ 2.svg) no-repeat;
+    min-height: 80vh;
+    background-size: cover;
+    background-position: top;
+    position: relative;
+  }
+
+  .pubg__top__form-container {
+    background: #1b1b1f;
+  }
+
+  .responsive__header .ad__image-container {
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 55rem;
+  }
+
+  .pubg__form {
+    flex-direction: column;
+    margin-top: 2.4rem;
+    gap: 0;
+  }
+
+  .whole__form {
+    border: none;
+  }
+
+  .pubg__form .normal__heading {
+    font-size: 2rem;
+  }
+
+  .pubg__form .platform {
+    width: 60%;
+    margin: 0;
+  }
+
+  .pubg__form .section-left {
+    /* margin-bottom: 2.4rem; */
+  }
+
+  .pubg__form .form__heading {
+    margin-top: 0;
+  }
+
+  /* bottom form */
+  .pubg__bottom__form-container .teamForm {
+    grid-auto-flow: row;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .group__fields:nth-child(3),
+  .group__fields:nth-child(4) {
+    margin-top: -2.4rem;
+  }
+
+  .checkBox__content .form__group {
+    max-width: 80%;
+  }
+}
+
+@media (max-width: 768px) {
+  .pubg__form .normal__heading {
+    font-size: 1.6rem;
+  }
+
+  .pubg__form .platform {
+    width: 100%;
+  }
+
+  .pubg__bottom__form-container .teamForm {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .group__fields:nth-child(2) {
+    margin-top: -2.4rem;
+  }
+
+  .checkBox__content .form__group {
+    max-width: 100%;
+  }
+
+  .pubg__character,
+  .pubg__character-1 {
+    right: 0%;
+    bottom: 20%;
+    left: auto;
+    top: auto;
+  }
+}
+
+@media (max-width: 600px) {
+  html {
+    font-size: 60%;
+  }
+
+  .responsive__header {
+    min-height: 50vh;
+    overflow: hidden;
+  }
+
+  .responsive__header .ad__image-container {
+    width: 45rem;
+  }
+}
+
+@media (max-width: 573px) {
+  .pubg__character,
+  .pubg__character-1 {
+    display: none;
+  }
+}
+
+@media (max-width: 400px) {
+  html {
+    font-size: 55%;
+  }
+
+  .responsive__header .ad__image-container {
+    width: 40rem;
+    overflow: hidden;
+  }
+}
+
+.nav__common-container ~ .real-footer {
+  margin-top: 0 !important;
+}
